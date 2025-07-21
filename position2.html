@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        background-color: crimson;
+        width: 80%;
+        height: 500px;
+        margin: auto;
+        position: relative;
+    }
+    .container .child {
+        background-color:chartreuse;
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        right: 100px;
+        bottom: 0;
+    }
+    h2 {
+        position: sticky;
+        top: 0;
+        right:0;
+        color:black;
+        z-index:1030 ;
+    }
+    .test {
+        background-color: darkslateblue;
+        height: 600px;
+        width: 100%;
+        
+    }
+    .test h1 {
+        position: fixed;
+        top: 0;
+        left: 40%;
+        color:aquamarine;
+    }
+   
+</style>
+<body>
+     <h2>techcamp</h2>
+    <div class="container">
+        <div class="child">
+           
+        </div>
+    </div>
+    <div class="test">
+        <h1>navbar</h1>
+        
+    </div>
+</body>
+</html>
